@@ -79,6 +79,6 @@ export class RoutesController implements OnModuleInit {
       };
     },
   ) {
-    console.log('New position', message.value);
+    console.log(message);
   }
 }
