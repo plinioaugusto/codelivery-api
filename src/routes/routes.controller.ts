@@ -13,7 +13,7 @@ import { RoutesService } from './routes.service';
 import { CreateRouteDto } from './dto/create-route.dto';
 import { UpdateRouteDto } from './dto/update-route.dto';
 import { ClientKafka, MessagePattern, Payload } from '@nestjs/microservices';
-import { Producer } from 'kafkajs';
+import { Producer } from '@nestjs/microservices/external/kafka.interface';
 import { RoutesGateway } from './routes.gateway';
 
 @Controller('routes')
