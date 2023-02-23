@@ -39,3 +39,4 @@ lerna-debug.log*
 .history/
 .env
 *.http
+.vscode
